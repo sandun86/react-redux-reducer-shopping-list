@@ -2,7 +2,7 @@
 
 A subarray is a part of the original one-dimensional array. In this problem, you need to find out the maximum sum that can be calculated by taking the contiguous part (including at least one element) of the original array.
 
-
+## Versions
 ```bash
 php v - 8.1.27
 phpunit v  - 9.5
