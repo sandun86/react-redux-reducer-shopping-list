@@ -1,0 +1,24 @@
+{
+    "name": "sandun/lead-desk",
+    "description": "Maximum subarray",
+    "type": "project",
+    "require": {
+        "php": "8.1.27"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "9.5"
+    },
+    "license": "ISC",
+    "autoload": {
+        "psr-4": {
+            "LeadDesk\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sandun Dissanayake",
+            "email": "sandunkdissanayake@gmail.com"
+        }
+    ]
+}
+
