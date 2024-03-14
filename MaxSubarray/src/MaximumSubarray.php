@@ -11,9 +11,11 @@ class MaximumSubarray implements MaxSubarray
 {
     public function contiguous(array $array): int
     {
+        //check the array length
         if (count($array) === 0) {
             return 0;
         }
+        //if array contains, that will be the maximum
         if (count($array) === 1) {
             return $array[0];
         }
