@@ -38,8 +38,6 @@ const AddProduct = () => {
     }
   }
 
-  console.log(error)
-
   return (
     <div>
       <Row>
