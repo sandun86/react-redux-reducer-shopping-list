@@ -23,7 +23,7 @@ const EditProduct = ({ editProduct, setEditProduct }: EditProductProps) => {
 
   const handleEditProductSubmit = (e: React.FormEvent) => {
     e.preventDefault()
-    if (productName.trim() === "" || productName === undefined) {
+    if (productName.trim() === "" || productName === null) {
       setError("Product name is required")
     } else if (productAmount === undefined || Number(productAmount) === 0) {
       setError("Product amount is required")
