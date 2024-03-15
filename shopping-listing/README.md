@@ -7,8 +7,9 @@ Used [React-Bootstrap](https://react-bootstrap.netlify.app/) for front-end desig
 
 ## Versions
 ```bash
-node v - v18.17.0
-npm v  - 9.6.7
+reactjs v - 18.2.0
+node v    - v18.17.0
+npm v     - 9.6.7
 ```
 
 ## Installation
