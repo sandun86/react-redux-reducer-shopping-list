@@ -50,5 +50,7 @@ class AnagramDetector implements Anagram
 }
 
 $isAnagram = new AnagramDetector();
-$result = $isAnagram->isAnagram('RAT', 'sAR');
-echo "Maximum contiguous SUM is $result" . "\n";
+$word1 = 'RAS';
+$word2 = 'sAR';
+$result = $isAnagram->isAnagram('RAS', 'sAR') ? "Yes" : "No";
+echo $word1. " AND ". $word2." --> Are them Anagram ? " . $result . "\n";
